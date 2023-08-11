@@ -1,0 +1,250 @@
+/* / :root {
+  --clr-accent-400: hsl(12, 88%, 59%);
+  --clr-accent-100: hsl(13, 100%, 96%);
+  --clr-primary-400: hsl(228, 39%, 23%);
+  --clr-neutral-100: hsl(233, 12%, 13%);
+  --clr-neutral-900: hsl(0, 0%, 98%);
+
+  --font-family-primary: "Be Vietnam Pro", sans-serif; */
+* {
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+
+  /* background-image: url(../img/bg-tablet-pattern.svg);
+  background-repeat: no-repeat; */
+}
+body p {
+  color: hsl(233, 12%, 13%);
+}
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+/* nav-bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 7rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+.menu-button {
+  padding: 10px 22px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 2px 30px 6px rgb(221, 159, 159);
+}
+button:hover {
+  background-color: lightcoral;
+}
+.toggle-button {
+  /* position: ; */
+  top: 0.75rem;
+  right: 1 rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* main-section */
+.top-info {
+  display: flex;
+  justify-content: space-between;
+}
+.main-content {
+  /* max-width: 500px; */
+  gap: 1.5rem;
+}
+.main-content h1 {
+  color: hsl(228, 39%, 23%);
+  margin-bottom: 2rem;
+  margin-top: 3.5rem;
+}
+.main-content p {
+  margin-bottom: 3rem;
+}
+
+.main-button {
+  padding: 10px 22px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 2px 30px 6px rgb(221, 159, 159);
+}
+.main-image img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.below-main {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2rem;
+}
+.below-main h1 {
+  margin-bottom: 2rem;
+  color: hsl(228, 39%, 23%);
+}
+.points {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.points h3 {
+  color: hsl(228, 39%, 23%);
+}
+.bullet {
+  display: flex;
+  gap: 2rem;
+}
+.bullet-p {
+  padding: 4px 24px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.wording {
+  margin-left: 100px;
+}
+/* review section */
+
+.review-heading {
+  color: hsl(228, 39%, 23%);
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+.review {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.-review img {
+  width: 15%;
+}
+.-review li {
+  margin-bottom: 2rem;
+  color: hsl(228, 39%, 23%);
+  list-style-type: none;
+}
+.-review p {
+  margin-bottom: 3rem;
+  color: hsl(233, 12%, 13%);
+}
+.review-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.review-button button {
+  padding: 10px 22px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 2px 30px 6px rgb(221, 159, 159);
+}
+button:hover {
+  background-color: lightcoral;
+}
+/* simplify section */
+.simplify {
+  background-color: hsl(12, 88%, 59%);
+  height: 18vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.simplify h1 {
+  color: white;
+}
+.simplify button {
+  padding: 10px 22px;
+  background-color: white;
+  color: hsl(12, 88%, 59%);
+  border-radius: 25px;
+  border: none;
+}
+.simplify a {
+  text-decoration: none;
+  color: hsl(12, 88%, 59%);
+}
+footer {
+  background-color: hsl(233, 12%, 13%);
+  height: 25vh;
+}
+.container2 {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container2 input {
+  border-radius: 25px;
+  padding: 8px 25px;
+  border: hsl(12, 88%, 59%) solid;
+}
+.container2 button {
+  padding: 6px 20px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+}
+.container2 a {
+  text-decoration: none;
+  color: white;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 784px) {
+  .top-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .menu ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 545px) {
+  .email {
+    display: none;
+  }
+}
